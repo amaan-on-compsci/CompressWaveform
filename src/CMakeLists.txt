@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(displayWaveform)
+project(compressWaveform)
 
 add_executable(${PROJECT_NAME})
 target_include_directories(${PROJECT_NAME} 
