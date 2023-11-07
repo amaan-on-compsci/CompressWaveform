@@ -191,6 +191,7 @@ void MainFrame::Painting(wxPaintEvent &event)
 
 int main(int argc, char *argv[])
 {
+    std::cout << "Hello World" << std::endl;
     // start wxWidgets
     wxApp::SetInstance(new wxApp);
     wxEntryStart(argc, argv);

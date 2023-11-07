@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**", // Include all files in the workspace
+                "${workspaceFolder}/vendor/wxWidgets/include" // Add paths to external libraries or dependencies
+            ],
+            "defines": [],
+            "compilerPath": "C:/MinGW/bin/g++.exe", // Path to your C/C++ compiler executable
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
